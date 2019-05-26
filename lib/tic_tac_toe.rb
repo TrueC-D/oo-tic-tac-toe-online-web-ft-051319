@@ -134,7 +134,7 @@ class TicTacToe
       turn
     end
     if won? != nil
-      puts "Congratulations #{winner}, you've won!"
+      puts "Congratulations #{winner}!"
     else draw? == true
       puts "The game has ended in a draw."
     end

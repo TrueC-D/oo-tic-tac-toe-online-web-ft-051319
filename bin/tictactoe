@@ -2,15 +2,8 @@
 require 'pry'
 require_relative '../lib/tic_tac_toe.rb'
 
-class TicTacToe
-  attr_accessor :game
-  
-  def initialize(game = '../lib/tic_tac_toe.rb')
-    @game = game
-    @game.play
-  end
-  
-end
-    
+game = TicTacToe.new
+
+game.play
 
 

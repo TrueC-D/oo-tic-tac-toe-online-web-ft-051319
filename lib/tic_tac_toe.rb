@@ -135,8 +135,9 @@ class TicTacToe
     end
     if won? != nil
       puts "Congratulations #{winner}!"
-    else won? == nil
+    else draw? == true
       puts "Cat's Game!"
     end
+    binding.pry
   end
 end

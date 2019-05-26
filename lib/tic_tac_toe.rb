@@ -132,7 +132,6 @@ class TicTacToe
   def play
     until over? == true
       turn
-      over?
     end
     if won? != nil
       puts "Congratulations #{winner}!"

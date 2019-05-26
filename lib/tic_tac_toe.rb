@@ -133,6 +133,8 @@ class TicTacToe
     until over? == true
       turn
     end
+    won?
+    draw?
     if won? != nil
       puts "Congratulations #{winner}!"
     else draw? == true

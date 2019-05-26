@@ -130,7 +130,7 @@ class TicTacToe
   end
   
   def play
-    until won?!= nil || draw? == true
+    until (won?!= nil || draw? == true)
       turn
     end
     if won? != nil
